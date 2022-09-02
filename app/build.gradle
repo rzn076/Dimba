@@ -18,7 +18,7 @@ android {
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
-        buildConfigField("String", "DIMBA_API_KEY", "\"${project.hasProperty("DIMBA_API_KEY") ? DIMBA_API_KEY : System.getenv("DIMBA_API_KEY")}\"")
+        buildConfigField("String", "icfg_bBVhd0sLoZSgLyv4dINmYhHh", "\"${project.hasProperty("icfg_bBVhd0sLoZSgLyv4dINmYhHh") ? DIMBA_API_KEY : System.getenv("icfg_bBVhd0sLoZSgLyv4dINmYhHh")}\"")
     }
 
     buildTypes {
